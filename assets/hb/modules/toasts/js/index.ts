@@ -1,3 +1,4 @@
+import params from '@params'
 import Toast from 'js/bootstrap/src/toast.js'
 import { getCookie, deleteCookie } from '@hugomods/cookies'
 
@@ -82,5 +83,5 @@ export const readToastsFromCookie = (name: string): void => {
 }
 
 (() => {
-  readToastsFromCookie('hb-toasts')
+  readToastsFromCookie(params.toasts.cookie_name)
 })()

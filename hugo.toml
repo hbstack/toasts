@@ -8,3 +8,4 @@ path = "github.com/hbstack/hb"
 path = "github.com/hugomods/cookies"
 
 [params.hb.toasts]
+cookie_name = 'hb-toasts'
