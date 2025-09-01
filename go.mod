@@ -9,5 +9,5 @@ require (
 	github.com/hugomods/base v0.7.2 // indirect
 	github.com/hugomods/cookies v0.1.0 // indirect
 	github.com/hugomods/hugopress v0.5.0 // indirect
-	github.com/twbs/bootstrap v5.3.3+incompatible // indirect
+	github.com/twbs/bootstrap v5.3.8+incompatible // indirect
 )
